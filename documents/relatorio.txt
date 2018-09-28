@@ -1,0 +1,45 @@
+NOMES: Celly Zucaratto e Kamilly Freitas                                                                               1-CTI
+
+RELATÓRIO
+
+EXERCÍCIO 1
+
+GIT HUB
+- Criado repósitorio “lojack”no GITHUB (Perfil  CellyZ).
+- Adicionamos kamillyf e Tbasso como colaboradores.
+
+GIT 
+-git config –global user.name “Celly”
+-git config –global user.email cellyzucaratto@gmail.com
+- cd documents 
+- mkdir siteloja (Coloquei nessa pasta o site(lojack) e o site com a pagina sobrenós com css novo(lojacknova))
+-cd siteloja
+-cd lojack
+-git init
+-cd ..
+- git add lojack
+- git commit -m "lojack"
+-git push origin master
+
+EXERCÍCIO 2 e 3
+
+-cd documents
+-cd siteloja
+-cd lojacknova
+-git init
+-cd ..
+-git add lojacknova
+-git commit –m “mudanças”
+
+EXERCÍCIO 4
+
+-git revert –no-edit f134212 (Aqui eu acabei deletando o primeiro commit, ao invés do segundo sorry)
+
+EXERCÍCIO 6
+
+-cd Relatorio
+-git init
+-cd ..
+-git add relatorio.txt
+-git commit -m "relatorio"
+
